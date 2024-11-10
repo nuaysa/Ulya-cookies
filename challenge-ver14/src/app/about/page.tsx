@@ -9,9 +9,10 @@ export default function about() {
                 alt="background"
                 width={5000}
                 height={10000}
+                objectFit="relative"
                 />
             </div>
-            <div className="w-screen h-screen sticky top-0 bottom-0 block lg:hidden">
+            <div className="w-screen h-screen fixed bottom-0 block lg:hidden">
                 <Image
                 src="/menu/toples-3lagi.jpg"
                 alt="background"
@@ -20,9 +21,9 @@ export default function about() {
                 />
             </div>
 
-            <h1 className="text-black mb-[1130px] lg:mb-[500px]  lg:mt-1 z-30 absolute font-bold bg-neutral-200 py-3 px-10 rounded-full border border-neutral-500 text-3xl lg:text-5xl ">About Us</h1>
+            <h1 className="text-black mb-[940px] lg:mb-[500px]  lg:mt-1 z-30 absolute font-bold bg-neutral-200 py-3 px-10 rounded-full border border-neutral-500 text-3xl lg:text-5xl ">About Us</h1>
 
-            <div className="flex items-center h-[1200px] lg:h-[540px] rounded-2xl backdrop-blur-sm bg-black/40 p-4 w-72 lg:w-[1200px] lg:p-16 mx-96 lg:mx-62 mt-16 z-20 absolute">
+            <div className="flex items-center h-[1000px] lg:h-[540px] rounded-2xl backdrop-blur-sm bg-black/40 p-6 w-96 lg:w-[1200px] lg:p-16 mx-96 lg:mx-62 mt-16 z-20 absolute">
                 
             <p className=" text-neutral-100 lg:my-0 my-[100px] leading-6 lg:leading-9">
             A Journey from Passion to Purpose
@@ -39,7 +40,7 @@ As the aroma of fresh cookies and traditional treats filled her home, friends an
 <br />
 <span>
 
-Today, our company prides itself on delivering that same warmth and quality in every jar. Each cookie is still crafted with the same love and care that inspired us in the beginning, aiming to bring a taste of comfort to our customers&apos; homes. From our kitchen to yours, we invite you to share in our journey—a story of resilience, creativity, and a touch of sweetness in challenging times.
+Today, our company prides itself on delivering that same warmth and quality in every jar. Each cookie is still crafted with the same love and care that inspired us in the beginning, aiming to bring a taste of comfort to our customer&apos;s homes. From our kitchen to yours, we invite you to share in our journey—a story of resilience, creativity, and a touch of sweetness in challenging times.
 </span>
 </p>
  

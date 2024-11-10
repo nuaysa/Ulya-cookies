@@ -5,7 +5,7 @@ export default function Founder() {
         <div className="h-full bg-neutral-300 p-3">
         <div className="flex justify-center items-center text-neutral-800">
 
-          <h1 className="text-center text-5xl font-bold">Get to know our Founder !</h1>
+          <h1 className="mt-10 lg:mt-0 text-center text-5xl font-bold">Get to know our Founder !</h1>
         </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-20 m-6 p-7">
