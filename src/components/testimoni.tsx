@@ -21,7 +21,7 @@ export default function Testimonial () {
                         <hr className="border border-black"/>
                         <h1>🍪🍪🍪🍪🍪🍪🍪</h1>
                         </div>
-                        <div className="pt-3 place-items-center leading-8 font-light">&quot{items.review}&quot</div>
+                        <div className="pt-3 place-items-center leading-8 font-light">{items.review}</div>
                     </div>
                 </div>
                     )
