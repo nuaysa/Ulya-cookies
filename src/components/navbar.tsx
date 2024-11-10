@@ -3,6 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { Nav } from "./hamburger-nav";
+
 
 export default function Navbar () {
     const [isScrolled, setIsScrolled] = useState(false); // Default false, karena biasanya awalnya belum di-scroll
@@ -18,10 +20,13 @@ export default function Navbar () {
     }, []);
 
     return (
-        <div className={`flex justify-between items-center w-[100vw] sm:h-[69px] fixed z-40 text-neutral-100 px-7 py-3 transition-colors duration-300 ${
+        <div className={`flex justify-between items-center w-[100vw] sm:h-[69px] fixed z-40 text-neutral-100 lg:px-7  transition-colors duration-300 ${
             isScrolled ? "bg-neutral-700 text-neutral-100 shadow-lg" : "bg-transparent text-gray-600"
         }`}>
-        <div className="flex flex-row gap-5 items-center">
+        <div className="block w-screen bg-neutral-700 py-3 lg:hidden">
+            <Nav/>
+        </div>
+        <div className="hidden lg:flex lg:flex-row gap-5 items-center">
             <Link href="/">
             <Image
             alt="brand" 
@@ -33,7 +38,6 @@ export default function Navbar () {
             </Link>
             <Link href="/" className="font-extrabold text-[30px]">Ulya cookies</Link>
         </div>
-
         <div className="hidden lg:flex sm:hidden text-xs lg:text-sm gap-10 font-bold">
         <Link href='/' className="hover:text-neutral-300">Home</Link>
         <Link href='/about' className="hover:text-neutral-300">About</Link>

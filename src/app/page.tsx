@@ -22,7 +22,7 @@ export default function Home() {
           <div className="bg-neutral-800 w-[55vw] h-[100vh] hidden lg:flex"></div>
           <div className="z-20 inset-0 flex flex-col absolute lg:flex-row justify-center gap-5 items-center space-x-2 lg:space-x-5 lg:left-[22vw]">
             
-              <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] mt-64 lg:mt-0 lg:w-[200px] md:h-[200px] border border-zinc-600 rounded-full " />
+              <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] lg:mt-0 lg:w-[200px] md:h-[200px] border border-zinc-600 rounded-full " />
               <div className="text-neutral-900  lg:text-white">
                 <div className="backdrop-blur-sm bg-neutral-400/20 p-2 rounded-xl mb-5 m-1 lg:m-0 mx-0 lg:mb-0 px-5 lg:px-0 lg:bg-transparent lg:backdrop-blur-0 border border-neutral-200 lg:border-hidden">
                 <h1 className="font-extrabold text-[30px] lg:text-[40px]">Ulya Cookies </h1>
@@ -45,8 +45,8 @@ export default function Home() {
 
         {/* ini sekilas produk */}
 
-        <div className="mt-[310px] lg:mt-0 bg-neutral-300 lg:h-[700px] lg:py-7 p-6">
-          <div className="flex flex-col lg:flex-row lg:justify-between justify-evenly gap-10 bg-gradient-to-r h-[850px] lg:h-[600px] from-neutral-800 to-neutral-600 px-7 lg:px-9 lg:p-10 rounded-lg">
+        <div className="pt-20 lg:pt-0 bg-neutral-300 lg:h-[700px] lg:py-7 p-6">
+          <div className="flex flex-col lg:flex-row lg:justify-between justify-evenly gap-10 bg-gradient-to-r h-[850px] lg:h-[600px] from-neutral-800 to-neutral-600  lg:px-9 p-10 rounded-lg">
               <div className="flex justify-center lg:hidden">
             <ProductsDisplay />
               </div>
