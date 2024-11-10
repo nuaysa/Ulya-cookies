@@ -39,7 +39,7 @@ As the aroma of fresh cookies and traditional treats filled her home, friends an
 <br />
 <span>
 
-Today, our company prides itself on delivering that same warmth and quality in every jar. Each cookie is still crafted with the same love and care that inspired us in the beginning, aiming to bring a taste of comfort to our customers’ homes. From our kitchen to yours, we invite you to share in our journey—a story of resilience, creativity, and a touch of sweetness in challenging times.
+Today, our company prides itself on delivering that same warmth and quality in every jar. Each cookie is still crafted with the same love and care that inspired us in the beginning, aiming to bring a taste of comfort to our customers&apos; homes. From our kitchen to yours, we invite you to share in our journey—a story of resilience, creativity, and a touch of sweetness in challenging times.
 </span>
 </p>
  

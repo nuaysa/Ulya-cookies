@@ -1,5 +1,4 @@
 import Team from "@/components/fetching";
-import Image from "next/image";
 
 export default async function teams() {
  

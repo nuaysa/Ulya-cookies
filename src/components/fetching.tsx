@@ -6,6 +6,16 @@ interface ITeam {
   image: string;
 }
 
+interface UserData {
+  name: {
+    first: string;
+  };
+  email: string;
+  picture: {
+    medium: string;
+  };
+}
+
 
 
 async function getData(): Promise<ITeam[]> {
@@ -19,7 +29,7 @@ async function getData(): Promise<ITeam[]> {
 
   const jsonData = await res.json();
   // Format data yang diterima sesuai dengan ITeam
-  const formattedData: ITeam[] = jsonData.results.map((user: any) => ({
+  const formattedData: ITeam[] = jsonData.results.map((user:UserData) => ({
     username: user.name.first,
     email: user.email,
     image: user.picture.medium,
@@ -34,9 +44,9 @@ export default async function Team(){
   return (
     <div>
 
-    {data.map((item) => {
+    {data.map((item,idx) => {
       return(
-        <div className="flex justify-start gap-2 items-center">
+        <div className="flex justify-start gap-2 items-center" key={idx}>
           <div className="m-2 w-[70px] h-[70px] rounded-full overflow-hidden">
           <Image
           src={item.image}

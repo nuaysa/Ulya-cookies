@@ -6,8 +6,8 @@ export default function Testimonial () {
             <h1 className="text-3xl lg:text-4xl my-5 font-bold">What people think about our products ?</h1>
         <div className="flex justify-center">
     <div className="flex  flex-col lg:flex-row  items-center">
-               {reviews.map((items) =>
-                <div className="flex justify-center">
+               {reviews.map((items,idx) =>
+                <div className="flex justify-center" key={idx}>
                         <div className="absolute flex w-[100px] h-[100px] border border-black bg-black rounded-full justify-center items-center">
                         <Image
                         src={items.image}
@@ -21,7 +21,7 @@ export default function Testimonial () {
                         <hr className="border border-black"/>
                         <h1>🍪🍪🍪🍪🍪🍪🍪</h1>
                         </div>
-                        <div className="pt-3 place-items-center leading-8 font-light">"{items.review}"</div>
+                        <div className="pt-3 place-items-center leading-8 font-light">&quot{items.review}&quot</div>
                     </div>
                 </div>
                     )
