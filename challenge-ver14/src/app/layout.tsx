@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Ulya Cookies",
-  description: "Flavor You&apos;ll Always Remember",
+  description: "Flavor You'll Always Remember",
 };
 
 export default function RootLayout({
