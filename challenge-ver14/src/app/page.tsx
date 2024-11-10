@@ -45,7 +45,7 @@ export default function Home() {
 
         {/* ini sekilas produk */}
 
-        <div className="pt-20 lg:pt-0 bg-neutral-300 lg:h-[700px] lg:py-7 p-6">
+        <div className="pt-20 lg:pt-10 bg-neutral-300 lg:h-[700px] lg:py-7 p-6">
           <div className="flex flex-col lg:flex-row lg:justify-between justify-evenly gap-10 bg-gradient-to-r h-[850px] lg:h-[600px] from-neutral-800 to-neutral-600  lg:px-9 p-10 rounded-lg">
               <div className="flex justify-center lg:hidden">
             <ProductsDisplay />

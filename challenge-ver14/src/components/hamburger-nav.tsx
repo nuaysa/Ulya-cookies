@@ -48,7 +48,7 @@ export const Nav = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`bg-neutral-700 w-screen lg:hidden ${isOpen ? 'flex, -translate-x-2'  : 'hidden'} mt-4 flex flex-col items-center overflow-hidden`}
+        className={`bg-neutral-700 w-screen lg:hidden ${isOpen ? 'flex, -translate-x-2'  : 'hidden'} mt-4 flex flex-col gap-3 items-center overflow-hidden`}
         >
         <Link href="/" className="text-white hover:text-neutral-300">Home</Link>
         <Link href="/about" className="text-white hover:text-neutral-300">About</Link>
