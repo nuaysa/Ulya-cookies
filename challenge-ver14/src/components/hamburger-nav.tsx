@@ -10,10 +10,6 @@ export const Nav = () => {
     setIsOpen(!isOpen);
   };
 
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
-
   return (
 
       <div >
@@ -33,7 +29,8 @@ export const Nav = () => {
             <Link href="/" className="font-extrabold max-text-[25px]">Ulya cookies</Link>
               </div>
         <div className="block mt-2 lg:hidden">
-          <button aria-label='navbar' onClick={toggleMenu}>
+          <button aria-label='navbar' onClick={toggleMenu}
+          onMouseLeave={() => setIsOpen(false)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -55,7 +52,7 @@ export const Nav = () => {
       {/* Mobile Menu */}
       <div
         className={`bg-neutral-700 w-screen lg:hidden ${isOpen ? 'flex' : 'hidden'} mt-4 flex flex-col gap-3 items-center overflow-hidden`}
-        onClick={() => setIsOpen(false)}
+        
         >
         <Link href="/" className="text-white hover:text-neutral-300">Home</Link>
         <Link href="/about" className="text-white hover:text-neutral-300">About</Link>
