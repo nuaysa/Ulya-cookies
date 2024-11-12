@@ -17,7 +17,7 @@ export default function Home() {
             width={700}
             height={700}
             objectFit="relative" 
-            className="lg:w-[45vw]lg:h-[100vh] "/>
+            className="lg:w-[45vw] lg:h-[100vh] "/>
           </div>
           <div className="min-h-[920px] block lg:hidden">
             <Image 
@@ -25,12 +25,12 @@ export default function Home() {
             src="/menu/hampers-2.jpg" 
             fill
             objectFit="relative" 
-            className="lg:w-[45vw]lg:h-[100vh] "/>
+            className="lg:w-[45vw] lg:h-[100vh] "/>
           </div>
-          <div className="bg-neutral-800 w-[55vw] h-[100vh] hidden lg:flex"></div>
-          <div className="z-20 inset-0 flex flex-col absolute lg:flex-row justify-center gap-5 items-center space-x-2 lg:space-x-5 lg:left-[22vw]">
+          <div className="bg-neutral-800 min-w-[55vw] h-[100vh] hidden lg:flex"></div>
+          <div className="z-20 inset-0 flex flex-col absolute lg:flex-row justify-center gap-5 items-center lg:left-[22vw]">
             
-              <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] lg:mt-0 lg:w-[200px] md:h-[200px] border border-zinc-600 rounded-full " />
+              <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] lg:mt-0 lg:w-[200px]border border-zinc-600 rounded-full " />
               <div className="text-neutral-900  lg:text-white">
                 <div className="backdrop-blur-sm bg-neutral-400/20 p-2 rounded-xl mb-5 m-1 lg:m-0 mx-0 lg:mb-0 px-5 lg:px-0 lg:bg-transparent lg:backdrop-blur-0 border border-neutral-200 lg:border-hidden">
                 <h1 className="font-extrabold text-[30px] lg:text-[40px]">Ulya Cookies</h1>
@@ -42,11 +42,11 @@ export default function Home() {
                   <hr />
                   <br />
                   <p className="mb-6">We are committed to fostering a sense of community and celebrating special moments, one cookie at a time.</p>
-                </div>
-                </div>
                 <Link href="/about" className="m-5 bg-neutral-400/30 lg:bg-transparent lg:m-2 border border-white p-4 rounded-full hover:bg-gray-700">
                   about us
                 </Link>
+                </div>
+                </div>
               </div>
             </div>
           </div>
