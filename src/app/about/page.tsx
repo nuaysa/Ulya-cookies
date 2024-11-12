@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function about() {
     return(
         <div className="flex flex-col justify-center items-center h-[1350px] lg:h-screen w-[98vw] bg-neutral-200">
-            <div className="w-screen h-screen fixed hidden lg:block">
+            <div className="w-screen h-screen fixed">
                 <Image
                 src="/kue-1-2.png"
                 alt="background"
