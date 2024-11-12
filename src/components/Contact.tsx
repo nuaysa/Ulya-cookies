@@ -8,7 +8,7 @@ export default function Order(){
             <h1 className=" text-2xl lg:text-4xl">Do you want to order ?</h1>
             <h1 className="text-xl lg:text-3xl">Contact Us !</h1>
             <div className="text-4xl lg:text-8xl pt-10 flex justify-center text-center gap-10 lg:gap-20 mb-0 lg:mb-16">
-                    <Link href="https://api.whatsapp.com/send/?phone=082123293035&text&type=phone_number&app_absent=0">
+                    <Link href="https://api.whatsapp.com/send/?phone=6282123293035&text&type=phone_number&app_absent=0">
                         <BsWhatsapp />
                     </Link>
                     <p>|</p>
