@@ -9,7 +9,7 @@ export default function Founder() {
         </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-20 m-6 p-7">
-            <div className="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] border border-neutral-500 rounded-full overflow-hidden ">
+            <div className="w-[200px] h-[200px] lg:w-[500px] lg:h-[500px] border border-neutral-500 rounded-full overflow-hidden ">
             <Image
             src="/inti/founder.jpg"
             alt="Founder"
@@ -29,7 +29,7 @@ Driven by an entrepreneurial spirit, Ummu Ulya continuously seeks to push the bo
           </div>
 
           <div className="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 lg:m-6 p-7">
-            <div className="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] border border-neutral-500 rounded-full overflow-hidden flex lg:hidden">
+            <div className="w-[200px] h-[200px] border border-neutral-500 rounded-full overflow-hidden flex lg:hidden">
             <Image
             src="/inti/partner.png"
             alt="partner"
