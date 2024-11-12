@@ -17,7 +17,7 @@ export default function Founder() {
             height={600}
             />
             </div>
-            <div className="backdrop-blur-sm bg-neutral-400/40 rounded-xl flex-1 w-[400px] lg:w-[600px] text-base lg:text-lg leading-8 lg:leading-9 p-10">
+            <div className="backdrop-blur-sm bg-neutral-400/40 rounded-xl flex-1 max-w-[400px] lg:w-[600px] text-base lg:text-lg leading-8 lg:leading-9 p-10">
               <span className="font-semibold text-xl">
               Introducing the Founder of Ulya Cookies
               </span>
@@ -38,7 +38,7 @@ Driven by an entrepreneurial spirit, Ummu Ulya continuously seeks to push the bo
             
             />
             </div>
-          <div className="backdrop-blur-sm bg-neutral-400/40 rounded-xl flex-1 w-[400px] lg:w-[600px] text-base lg:text-lg leading-8 lg:leading-9 p-10 mx-10 lg:mx-0">
+          <div className="backdrop-blur-sm bg-neutral-400/40 rounded-xl flex-1 max-w-[400px] lg:w-[600px] text-base lg:text-lg leading-8 lg:leading-9 p-10 mx-10 lg:mx-0">
               <span className="font-semibold text-xl">
               Introducing the Co-Founder of Ulya Cookies
               </span>

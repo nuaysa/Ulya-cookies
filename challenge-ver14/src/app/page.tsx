@@ -42,11 +42,14 @@ export default function Home() {
                   <hr />
                   <br />
                   <p className="mb-6">We are committed to fostering a sense of community and celebrating special moments, one cookie at a time.</p>
-                <Link href="/about" className="m-5 bg-neutral-400/30 lg:bg-transparent lg:m-2 border border-white p-4 rounded-full hover:bg-gray-700">
+                <Link href="/about" className="m-5 bg-neutral-400/30 lg:bg-transparent lg:m-2 border border-white p-4 rounded-full text-center hover:bg-gray-700 hidden lg:block">
                   about us
                 </Link>
                 </div>
                 </div>
+                <Link href="/about" className="m-5 bg-neutral-400/30 lg:bg-transparent lg:m-2 border border-white p-4 rounded-full hover:bg-gray-700 lg:hidden">
+                  about us
+                </Link>
               </div>
             </div>
           </div>
