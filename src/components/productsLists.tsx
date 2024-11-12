@@ -30,10 +30,10 @@ export default function AllProducts() {
                 return(
                     <div key={idx}>
 
-                    <div className="bg-gradient-to-t from-neutral-500 to-neutral-300  flex flex-col h-[450px] rounded-xl border border-neutral-400">
+                    <div className="bg-gradient-to-t from-neutral-500 to-neutral-300  flex flex-col max-h-[450px] rounded-xl border border-neutral-400">
 
                     <div className="rounded-xl p-4 overflow-hidden">
-                    <div className="w-[300px] h-[200px] overflow-hidden rounded-xl">
+                    <div className="max-w-full max-h-[200px] overflow-hidden rounded-xl">
                     <Image
                     src={items.Image}
                     alt={items.productName}
@@ -42,7 +42,6 @@ export default function AllProducts() {
                     className="rounded-xl"
                     />
                     </div>
-
            
                     <div className="m-3 text-white text-lg font-semibold">{items.productName}
                         <hr />

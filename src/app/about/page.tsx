@@ -12,14 +12,6 @@ export default function about() {
                 objectFit="relative"
                 />
             </div>
-            <div className="w-screen h-screen fixed bottom-0 block lg:hidden">
-                <Image
-                src="/menu/toples-3lagi.jpg"
-                alt="background"
-                layout="fill"
-                objectFit="cover"
-                />
-            </div>
 
             <h1 className="text-black mb-[940px] lg:mb-[500px]  lg:mt-1 z-30 absolute font-bold bg-neutral-200 py-3 px-10 rounded-full border border-neutral-500 text-3xl lg:text-5xl ">About Us</h1>
 

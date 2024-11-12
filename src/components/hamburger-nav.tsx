@@ -24,7 +24,7 @@ export const Nav = () => {
             className="border rounded-full"
             />
             </Link>
-            <Link href="/" className="font-extrabold text-[30px]">Ulya cookies</Link>
+            <Link href="/" className="font-extrabold max-text-[25px]">Ulya cookies</Link>
               </div>
         <div className="block mt-2 lg:hidden">
           <button  onClick={toggleMenu}>
