@@ -27,7 +27,7 @@ export const Nav = () => {
             <Link href="/" className="font-extrabold max-text-[25px]">Ulya cookies</Link>
               </div>
         <div className="block mt-2 lg:hidden">
-          <button  onClick={toggleMenu}>
+          <button aria-label='navbar' onClick={toggleMenu}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

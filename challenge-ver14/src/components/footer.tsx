@@ -15,7 +15,7 @@ export default function Footer() {
                 </div>
                 <div className="flex flex-col justify-start items-center gap-3">
                     <h1 className="font-bold">Contact Us</h1>
-                    <Link href="https://api.whatsapp.com/send/?phone=082123293035&text&type=phone_number&app_absent=0" className="text-neutral-700">
+                    <Link href="https://api.whatsapp.com/send/?phone=6282123293035&text&type=phone_number&app_absent=0" className="text-neutral-700">
                     <BsWhatsapp aria-label="button"/>
                     </Link>
                     <Link href="https://www.instagram.com/ulya_cookies/"  className="text-neutral-700">
