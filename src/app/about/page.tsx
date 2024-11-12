@@ -12,6 +12,7 @@ export default function about() {
                 objectFit="relative"
                 />
             </div>
+            
             <div className="w-screen h-screen fixed bottom-0 block lg:hidden">
                 <Image
                 src="/menu/toples-3lagi.jpg"
