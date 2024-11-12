@@ -32,14 +32,14 @@ export default function AllProducts() {
 
                     <div className="bg-gradient-to-t from-neutral-500 to-neutral-300  flex flex-col max-h-[450px] rounded-xl border border-neutral-400">
 
-                    <div className="rounded-xl p-4 overflow-hidden">
-                    <div className="max-w-full max-h-[200px] overflow-hidden rounded-xl">
+                    <div className="rounded-xl  p-4 overflow-hidden min-w-[100px] min-h-[400px]">
+                    <div className="max-w-full max-h-[180px] overflow-hidden rounded-xl">
                     <Image
                     src={items.Image}
                     alt={items.productName}
                     width={400}
-                    height={400}
-                    className="rounded-xl"
+                    height={200}
+                    className="rounded-xl max-h-[400px]"
                     />
                     </div>
            

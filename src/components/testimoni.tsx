@@ -16,7 +16,7 @@ export default function Testimonial () {
                         height={100}
                         className="border rounded-full"/>
                         </div>
-                    <div className="flex flex-col pt-16 p-5 bg-neutral-300 w-[280px] h-[380px] m-10 rounded-xl justify-start items-center border border-black">
+                    <div className="flex flex-col pt-16 p-5 bg-neutral-300 max-w-[280px] min-h-[380px] m-10 rounded-xl justify-start items-center border border-black">
                         <div className="font-semibold text-[20px]">{items.name}
                         <hr className="border border-black"/>
                         <h1>🍪🍪🍪🍪🍪🍪🍪</h1>
