@@ -3,13 +3,21 @@ import Image from "next/image";
 export default function about() {
     return(
         <div className="flex flex-col justify-center items-center h-[1350px] lg:h-screen w-[98vw] bg-neutral-200">
-            <div className="w-screen h-screen fixed">
+            <div className="w-screen h-screen fixed hidden lg:block">
                 <Image
                 src="/kue-1-2.png"
                 alt="background"
                 width={5000}
                 height={10000}
                 objectFit="relative"
+                />
+            </div>
+            <div className="w-screen h-screen fixed bottom-0 block lg:hidden">
+                <Image
+                src="/menu/toples-3lagi.jpg"
+                alt="background"
+                layout="fill"
+                objectFit="cover"
                 />
             </div>
 
