@@ -19,7 +19,7 @@ export default function Home() {
             objectFit="relative" 
             className="lg:w-[45vw] lg:h-[100vh] "/>
           </div>
-          <div className="bg-neutral-800 min-w-[55vw] h-[100vh] lg:flex"></div>
+          <div className="bg-neutral-500 lg:bg-neutral-800 min-w-[55vw] h-[100vh] lg:flex"></div>
           <div className="z-20 inset-0 flex flex-col absolute lg:flex-row justify-center gap-5 items-center lg:left-[22vw]">
             
               <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] lg:mt-0 lg:w-[200px]border border-zinc-600 rounded-full " />

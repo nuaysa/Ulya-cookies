@@ -29,7 +29,7 @@ export default async function AllProducts() {
 
             <div className="absolute z-10 stick top-[410px] mt-[15px] sm:mt-[20px] lg:mt-0 text-center bg-neutral-200 rounded-full border border-neutral-900 px-10 py-2 sm:py-2 lg:py-4 text-3xl sm:text-3xl mx-0 lg:text-5xl font-bold">Our Products</div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-10 w-[98.9vw] h-max justify-evenly p-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 w-[98.9vw] h-max justify-evenly p-10">
             {data.map((items) =>( 
                     <div key={items.fields.productName}>
 
