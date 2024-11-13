@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@types/contentful-resolve-response": "^0.1.33"
+  }
+}

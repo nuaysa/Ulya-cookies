@@ -19,20 +19,12 @@ export default function Home() {
             objectFit="relative" 
             className="lg:w-[45vw] lg:h-[100vh] "/>
           </div>
-          <div className="min-h-[920px] block lg:hidden">
-            <Image 
-            alt="foto" 
-            src="/menu/hampers-2.jpg" 
-            fill
-            objectFit="relative" 
-            className="lg:w-[45vw] lg:h-[100vh] "/>
-          </div>
-          <div className="bg-neutral-800 min-w-[55vw] h-[100vh] hidden lg:flex"></div>
+          <div className="bg-neutral-800 min-w-[55vw] h-[100vh] lg:flex"></div>
           <div className="z-20 inset-0 flex flex-col absolute lg:flex-row justify-center gap-5 items-center lg:left-[22vw]">
             
               <Image alt="logo" src="/logo.jpg" width={500} height={500} objectFit="cover" className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] lg:mt-0 lg:w-[200px]border border-zinc-600 rounded-full " />
-              <div className="text-neutral-900  lg:text-white">
-                <div className="backdrop-blur-sm bg-neutral-400/20 p-2 rounded-xl mb-5 m-1 lg:m-0 mx-0 lg:mb-0 px-5 lg:px-0 lg:bg-transparent lg:backdrop-blur-0 border border-neutral-200 lg:border-hidden">
+              <div className="text-white">
+                <div className="backdrop-blur-sm bg-neutral-400/20 p-2 rounded-xl mb-10 m-1 lg:m-0 mx-0 lg:mb-0 px-5 lg:px-0 lg:bg-transparent lg:backdrop-blur-0 border border-neutral-200 lg:border-hidden">
                 <h1 className="font-extrabold text-[30px] lg:text-[40px]">Ulya Cookies</h1>
                 <p className="mt-2 mb-5 font-abold text-[20px] lg:text-[30px]">Flavor You&apos;ll Always Remember</p>
                 <div className="max-w-[70vw] h-full lg:w-[30vw] lg:h-[35vh]">
