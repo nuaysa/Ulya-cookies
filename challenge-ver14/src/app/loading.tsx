@@ -6,8 +6,8 @@ export default function Loading() {
             <Image
             src="/logo.jpg"
             alt="loading"
-            width={500}
-            height={500}
+            width={200}
+            height={200}
             className="rounded-full animate-pulse"
             />
             <h1 className="font-semibold text-3xl text center text-neutral-800">Loading...</h1>
