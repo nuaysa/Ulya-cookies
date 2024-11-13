@@ -1,16 +1,17 @@
 import Image from "next/image";
 
 export default function Loading() {
-    return(
-        <div className="h-svh flex flex-col justify-center items-center">
+    return (
+        <div className="h-svh flex flex-col justify-center items-center gap-20">
             <Image
             src="/logo.jpg"
-            alt="loading..."
-            width={1000}
-            height={1000}
-            className="animate-ping w-[200px] h-[200px]"
+            alt="loading"
+            width={500}
+            height={500}
+            className="rounded-full animate-pulse"
             />
-            <h1 className="text-3xl font-extrabold">Hold a sec..</h1>
+            <h1 className="font-semibold text-3xl text center text-neutral-800">Loading...</h1>
+            <h2 className="font-semibold text-3xl text center text-neutral-800">Please Wait</h2>
         </div>
     )
 }

@@ -2,6 +2,12 @@
 const nextConfig = {
   images: {
   domains: ['randomuser.me'],
+  
+  remotePatterns:[
+    {
+        hostname: "images.ctfassets.net"
+    },
+]
   },
 };
 

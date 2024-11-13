@@ -3,3 +3,4 @@ export interface ITeam {
     email: string,
     image: string
 }
+
